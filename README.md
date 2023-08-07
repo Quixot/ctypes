@@ -6,4 +6,5 @@ Install the C/C++ extension for VS Code. You can install the C/C++ extension by 
 #### Installing the MinGW-w64 toolchain
 Get the latest version of MinGW-w64 via [MSYS2](https://www.msys2.org/), which provides up-to-date native builds of GCC, MinGW-w64, and other helpful C++ tools and libraries. This will provide you with the necessary tools to compile your code, debug it, and configure it to work with IntelliSense.
 
+gcc -fPIC -shared -o clibrary.so clibrary.c
 
